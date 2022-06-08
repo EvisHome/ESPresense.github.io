@@ -22,19 +22,21 @@ nav_order: 2
 | Generic BTLE Beacons | Yes       |                                             | Anything that follows the iBeacon or Eddystone standards
 | MiFlora plant sensor | Yes *     |                                             | Location only
 | Samsung smart tags   | Beta      |                                             | Needs more testing to know if id will be stable long term
+| Oura Ring            | Yes       | [Ouraring.com](https://ouraring.com/)       | Gen 3 ring seeems to work really nicely
 
 `* = with caveats`
 
 ## Known to not work
 
-| Name                | Notes                                                                |
-|:--------------------|:---------------------------------------------------------------------|
-| FitBits             | Only works well when not connected to app
-| Xiaomi Watch        | Only works well when not connected to app
-| Apple AirTags       | Doesn't work, too much privacy/hashing built in
-| Samsung SmartTags   | Doesn't work, too much privacy/hashing built in
-| HUAWEI Band 6       | Only works when not connected to a phone
-| HUAWEI Watch GT2    | Only works when not connected to a phone
+| Name                  | Notes                                                                |
+|:----------------------|:---------------------------------------------------------------------|
+| FitBits               | Only works well when not connected to app
+| Xiaomi Watch          | Only works well when not connected to app
+| Apple AirTags         | Doesn't work, too much privacy/hashing built in
+| Samsung SmartTags     | Doesn't work, too much privacy/hashing built in
+| HUAWEI Band 6         | Only works when not connected to a phone
+| HUAWEI Watch GT2      | Only works when not connected to a phone
+| Garmin Forerunner 935 | Only works when not connected to a phone
 
 ### Add to the list
 
